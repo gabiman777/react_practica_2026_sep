@@ -1,5 +1,10 @@
 # react_practica_2026_sep
-React Proyecto de Práctica Septiembre 2026
+React Proyecto de Práctica Septiembre 2026.
+Hola Mundo con 2 componentes.
+
+# Pasos para ejecutar
+npm install
+npm run dev
 
 # React + Vite
 
