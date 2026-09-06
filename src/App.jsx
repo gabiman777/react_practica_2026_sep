@@ -7,7 +7,6 @@ function App() {
       <h2>Usando React sin IA</h2>
       <br>
       </br>
-      <Saludo nombre="Gabriel" />
       <Saludo nombre="Diana" />
       <Saludo nombre="Opinator" />
       <Saludo/>
