@@ -6,6 +6,10 @@ function App() {
 
   const[texto, setTexto] = useState("Gabriel")
 
+  const tecnologias = [{id: 1, nombre: "React"}, {id: 2, nombre: "Vue"}, {id: 3, nombre: "Angular"}, {id: 4, nombre: "Javascript"}]
+
+  const personas = [ {}, {id: 1, nombre: "Gabriel"}, {id: 2, nombre: "Diana"}, {id: 3, nombre: "Juan"}, {id: 4, nombre: "Maria"}]
+
   return (
     <>
       <h1>Hola Mundo</h1>
@@ -32,6 +36,22 @@ function App() {
       <button onClick={() => setTexto("")}>Limpiar</button>
       <p>Estás escribiendo: {texto}</p>
       <p>Longitud: {texto.length} caracteres</p>
+
+      <hr />
+      <br/>
+      <h2>Tecnologías</h2>
+      <ul>
+        {tecnologias.map((tecno) => (
+          <li key={tecno.id}>{tecno.nombre}</li>
+        ))}
+      </ul>
+      
+      <hr />
+      <br/>
+      <h2>Personas:</h2>
+        {personas.map((p) => (
+          <Saludo key={p.id} nombre={p.nombre} />
+        ))}
     </>
   )
 }

@@ -1,6 +1,13 @@
 # react_practica_2026_sep
 React Proyecto de Práctica Septiembre 2026.
-Hola Mundo con 2 componentes.
+
+Mi primer proyecto en React (Vite + React 19). Bloque 2 del sprint de aprendizaje.
+
+Demuestra:
+-componentes y props
+-`useState` (contador con updater funcional),
+-input controlado,
+-renderizado de listas con `.map()` + `key`.
 
 # Pasos para ejecutar
 npm install
